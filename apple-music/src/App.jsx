@@ -8,6 +8,7 @@ import MoreExplore from './components/MoreExplore'
 import MyFooter from './components/MyFooter'
 import MusicPlayer from './components/MusicPlayer'
 import { Row, Col } from 'react-bootstrap'
+import Player from './components/Player'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 path="/"
                 element={
                   <div>
+                    <Player />
                     <Home />
                     <MoreExplore />
                     <MusicPlayer />
